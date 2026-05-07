@@ -2,9 +2,9 @@
 
 Este projeto tem como objetivo gerenciar cinemas, filmes e sessões, permitindo que administradores e espectadores interajam com o sistema de forma eficiente.
 
-👩‍💼 **Requisitos Funcionais**
+👩‍💼 ***Requisitos Funcionais***
 
-Funcionário / Administrador
+**Funcionário / Administrador**
 
 Cadastrar cinemas
 
@@ -20,7 +20,7 @@ Atualizar informações de filmes e sessões
 
 Excluir sessões
 
-Espectador
+**Espectador**
 
 Consultar filmes em cartaz
 
@@ -28,7 +28,7 @@ Consultar horários das sessões
 
 Visualizar informações dos filmes
 
-📜 **Regras de Negócio**
+📜 ***Regras de Negócio***
 
 Um cinema pode possuir várias sessões
 
@@ -46,12 +46,25 @@ Apenas filmes em cartaz podem possuir sessões cadastradas
 
 Cada sessão possui apenas um registro de público
 
-📂 **Estrutura do Projeto**
+⚙️ ***Requisitos Não Funcionais***
 
+Segurança: Autenticação obrigatória para diferenciar perfis de administrador e espectador.
+
+Performance: Consultas de filmes e sessões devem ser rápidas, mesmo com grande volume de dados.
+
+Usabilidade: Interface intuitiva e acessível para diferentes perfis de usuários.
+
+Disponibilidade: O sistema deve estar disponível 24/7, com mínima indisponibilidade.
+
+Manutenibilidade: Código modular e bem documentado para facilitar futuras atualizações.
+
+Escalabilidade: Capacidade de suportar aumento de cinemas, filmes e sessões sem perda de desempenho.
+
+Confiabilidade: Garantir integridade dos dados de público, sessões e filmes.
+
+📂 ***Estrutura do Projeto***
 Backend: Responsável pela lógica de negócios e persistência dos dados.
 
 Frontend: Interface para interação de administradores e espectadores.
 
-Banco de Dados: Armazena informações de cinemas, filmes, sessões e público.
-
-
+Banco de Dados
