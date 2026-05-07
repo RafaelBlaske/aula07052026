@@ -1,0 +1,21 @@
+@startuml   
+
+actor Usuario
+
+boundary View
+control Controller
+control Service
+entity Repository
+database SQLite
+
+Usuario -> View : Informar dados da sessão
+View -> Controller : cadastrarSessao()
+Controller -> Service : cadastrarSessao()
+Service -> Repository : salvarSessao()
+Repository -> SQLite : INSERT sessão
+SQLite --> Repository : sucesso
+Repository --> Service : sessão salva
+Service --> Controller : confirmação
+Controller --> View : mensagem de sucesso
+
+@enduml

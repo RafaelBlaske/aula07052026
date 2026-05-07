@@ -1,0 +1,12 @@
+@startuml   
+start
+
+:Selecionar Cinema;
+:Selecionar Filme;
+:Informar Data;
+:Informar Horário;
+:Validar Dados;
+:Salvar Sessão;
+
+stop
+@enduml

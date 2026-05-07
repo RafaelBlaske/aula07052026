@@ -1,0 +1,21 @@
+@startuml   
+
+actor Usuario
+
+boundary View
+control Controller
+control Service
+entity Repository
+database SQLite
+
+Usuario -> View : Informar público
+View -> Controller : registrarPublico()
+Controller -> Service : registrarPublico()
+Service -> Repository : atualizarPublico()
+Repository -> SQLite : UPDATE sessão
+SQLite --> Repository : sucesso
+Repository --> Service : atualização concluída
+Service --> Controller : confirmação
+Controller --> View : mensagem de sucesso
+
+@enduml

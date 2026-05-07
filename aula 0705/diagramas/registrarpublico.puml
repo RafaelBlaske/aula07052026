@@ -1,0 +1,10 @@
+@startuml    
+start
+
+:Selecionar Sessão;
+:Informar Quantidade de Público;
+:Validar Capacidade;
+:Salvar Público;
+
+stop
+@enduml
