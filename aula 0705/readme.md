@@ -1,7 +1,7 @@
-🎬 Sistema de Gerenciamento de Cinemas
+🎬 ***Sistema de Gerenciamento de Cinemas***
 Este projeto tem como objetivo gerenciar cinemas, filmes e sessões, permitindo que administradores e espectadores interajam com o sistema de forma eficiente.
 
-👩‍💼 Requisitos Funcionais
+👩‍💼 **Requisitos Funcionais**
 Funcionário / Administrador
 Cadastrar cinemas
 
@@ -24,7 +24,7 @@ Consultar horários das sessões
 
 Visualizar informações dos filmes
 
-📜 Regras de Negócio
+📜 **Regras de Negócio**
 Um cinema pode possuir várias sessões
 
 Cada sessão pertence a apenas um filme
@@ -41,16 +41,11 @@ Apenas filmes em cartaz podem possuir sessões cadastradas
 
 Cada sessão possui apenas um registro de público
 
-📂 Estrutura do Projeto
+📂 **Estrutura do Projeto**
 Backend: Responsável pela lógica de negócios e persistência dos dados.
 
 Frontend: Interface para interação de administradores e espectadores.
 
 Banco de Dados: Armazena informações de cinemas, filmes, sessões e público.
 
-🚀 Próximos Passos
-Implementar autenticação para diferenciar perfis de administrador e espectador.
 
-Criar relatórios detalhados de público por cinema e por filme.
-
-Adicionar filtros avançados para busca de filmes e sessões.
