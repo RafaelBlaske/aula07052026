@@ -1,8 +1,11 @@
-🎬 ***Sistema de Gerenciamento de Cinemas***
+🎬 **Sistema de Gerenciamento de Cinemas**
+
 Este projeto tem como objetivo gerenciar cinemas, filmes e sessões, permitindo que administradores e espectadores interajam com o sistema de forma eficiente.
 
 👩‍💼 **Requisitos Funcionais**
+
 Funcionário / Administrador
+
 Cadastrar cinemas
 
 Cadastrar filmes
@@ -18,6 +21,7 @@ Atualizar informações de filmes e sessões
 Excluir sessões
 
 Espectador
+
 Consultar filmes em cartaz
 
 Consultar horários das sessões
